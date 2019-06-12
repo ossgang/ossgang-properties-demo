@@ -1,0 +1,12 @@
+dependencies {
+    compile project(":demo-commons")
+
+    compile group: 'io.github.ossgang', name: 'ossgang-properties-web-server', version: "+"
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: springBootVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-websocket', version: springBootVersion
+
+    implementation group: 'org.springframework.boot', name:'spring-boot-devtools', version: springBootVersion
+
+}
+
